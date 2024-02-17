@@ -1,0 +1,566 @@
+/* HEADER */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+
+body{
+	background-color: white;
+	background-attachment: scroll;
+	text-align: center;
+	
+}
+
+body .te{
+	margin-top: 3%;
+	font-size: 1.5em;
+}
+
+/*container/header*/
+
+.container{
+		    background-image: url(../imagens/studio.jpg);
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 500px;
+	box-shadow: inset 30px 30px 400px 30px black;
+	position: relative;
+}
+
+.container > img{
+	padding-top: 2%;
+	padding-left: 2%;
+	position: sticky;
+	top: -1px;
+}
+
+.container > .links{
+	width: 100%;
+	padding: 4%;
+	text-align: right;
+	position: sticky;
+	top: -1px;
+	background-color: transparent;
+	height: 100px;
+}
+
+.container > .links > a{
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	padding: 1%;
+	
+}
+
+.container > .links > a:hover{
+    background-color: #ffffff78;
+    transition: 2s;
+	margin-right: 25px;
+	
+	
+}
+
+.container .section{
+	width: 100%;
+    text-align: center;
+}
+
+.container .nome  h1{
+	font-size: 60pt;
+	color: white;
+}
+
+.container .nome  p{
+	font-size: 12pt;
+	color: white;
+	margin-top: 4%;
+}
+/*
+PSEUDO-ELEMENT
+.container section > h1::after{
+	content: " / PLV";
+	border: 2px solid black;
+	background-color: yellow;
+}
+
+*/
+
+/*Container1/main*/
+
+.container1 > .chilld {
+    Display: flex;
+	flex-direction: row;
+	width: 100%;
+    height: 1220px;
+	padding-top: 1%;
+	color: black;
+	
+	transition: width .20s, height .3;
+	transition-timing-function: ease;
+}
+
+.container1 > .dois{
+	margin: 2% 0% 0% 36%;
+
+}
+
+.container1 > .aviso{
+	background-color: black;
+	padding: 3px;
+	color: white;
+}
+
+.container1 > .chilld .redes{
+	width: 20%;
+	height: 1200px;
+	color: white;
+	
+}
+
+.container1 >.chilld .redes > .rum, .rdois, .rtres, .rquatro, .rcinco{
+	background-color: #00000008;
+	color: black;
+	padding: 6px;
+	margin: 6px;
+	overflow: hidden;
+	
+}
+
+.container1 .redes a{
+	font-size: 12px;
+	color: black;
+}
+
+.container1 .chilld .musicas{
+	width: 70%;
+	height: 1136px;
+	text-align: center;
+	overflow-y: auto;
+	border: 4px solid #0000000d;
+} 
+
+.container1 > .chilld .musicas .mum1, .mdois2, .mtres3{
+	padding: 0% 4%;
+}
+
+.container1 .musicas h1{
+	font-size: 1.5em;
+}
+
+.container1 .musicas img{
+	padding-top: 0%;
+	width: 200px;
+	height: 200px;
+}
+/*
+.container1 .musicas img:hover{
+	transform: scale(1.2);
+	transition: 1s;
+	margin-right: 40px;
+}
+*/
+.container1 .musicas  a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+}
+
+.container1 .musicas a img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-right: 14px;
+}
+	
+.container1 .musicas .audio{
+	width: 50%;
+}
+
+.container1 .musicas  a:hover{
+	color: black;
+	background-color: #9e9e9e26;
+	transition: 1s;
+	margin-right: 40px;
+}
+	
+}
+
+.container1 .outros{
+	width: 30%;
+	height: 1200px;
+	background-color: white;
+	padding: 4%;
+	color: black;
+	overflow: hidden;
+	border: 4px solid #0000000d;
+}
+
+.container1 .outros .titulo{
+	background-color: black;
+	color: white;
+	padding: 2%;
+}
+
+.container1 .outros > a{
+	color: #00a8a9;
+	
+}
+
+.container1 >.chilld1 > .rum, .rdois, .rtres, .rquatro, .rcinco{
+	background-color: #00000008;
+	color: black;
+	padding: 6px;
+	margin: 6px;
+	overflow: hidden;
+	border: 2px solid #0000000d;
+}
+
+.container1 .chilld1 a{
+	font-size: 12px;
+	color: black;
+}
+
+.container1 .cum{
+	order: 3;
+	display: flex;
+	width: 80%;
+	height: 500px;
+	text-align: center;
+	margin: 2% 10%;
+	padding: 10px 0px 0px 200px;
+	justify-content: center;
+	overflow-x: scroll;
+    box-shadow: inset 20px 20px 20px 0px #0000001f;
+}
+
+.container1 .cum h1{
+	display: block;
+}
+
+.container1 .cum img{
+	padding-top: 0%;
+	width: 200px;
+	height: 200px;
+	
+}
+
+.container1 .cum .audio{
+	width: 80%;
+}
+
+.container1 > .cum .mum, .mdois, .mtres, .mquatro, .mcinco{
+	padding: 0% 4%;
+	border: 4px solid #0000000d;
+}
+
+
+.container1 .cum  a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+}
+
+.container1 .cum  a:hover{
+	color: black;
+	background-color: #9e9e9e26;
+	transition: 1s;
+	margin-right: 40px;
+}
+
+.container1 .cum a img {
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-right: 14px;
+}
+
+/* FOOTER */
+
+.container2{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	margin-top: 1%;
+}
+
+/*  Responsividade para PC's/TV's   */
+
+	@media (max-width: 900px){
+	
+	.container{
+	background-image: url(../imagens/700.jpg);
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 500px;
+	box-shadow: inset 30px 30px 400px 30px black;
+
+	}
+	
+	.container .nome > h1{
+	padding-top: 8%;
+	font-size: 60pt;
+	color: white;
+}
+	
+	.container1 > .chilld {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 2380px;
+	padding-top: 4%;
+	color: black;
+	
+}
+
+.container1 > .chilld .redes{
+	order: 0;
+	width: 30%;
+	height: 1200px;
+	color: white;
+	
+}
+
+
+.container1 .chilld .musicas{
+	order: 0;
+	width: 70%;
+	height: 1200px;
+	text-align: center;
+}
+
+.container1 .musicas img{
+	padding-top: 0%;
+	width: 200px;
+	height: 200px;
+}
+
+.container1 .musicas  a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 4px;
+}
+
+.container1 .musicas .audio{
+	width: 50%;
+}
+
+.container1 .musicas a:hover{
+	color: black;
+	background-color: #9e9e9e26;
+	transition: 2;
+	}
+	
+	.container1 .outros{
+	order: 1;
+    width: 70%;
+    height: 840px;
+    background-color: white;
+    text-align: center;
+    color: black;
+	margin: 80px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.container1 .outros > a{
+	color: #00a8a9;
+}
+
+.container1 .chilld1 .rum, .rdois, .rtres, .rquatro, .rcinco{
+	background-color: #00000008;
+	color: black;
+	width: 100%;
+	padding: 6px;
+	margin: 6px;
+	overflow-x: scroll;
+}
+
+.container1 .chilld1 a{
+	font-size: 12px;
+	color: black;
+}
+
+.container1 .cum{
+	order: 3;
+	display: flex;
+	width: 90%;
+	height: 500px;
+	text-align: center;
+	margin: 4% 5%;
+	padding: 10px 0px 0px 200px;
+	justify-content: center;
+	overflow-x: scroll;
+    box-shadow: inset 20px 20px 20px 0px #0000001f;
+}
+	
+	}
+	
+	
+	@media (max-width: 764px){
+
+  .container1{
+      padding: 4%;
+}
+	
+	.container{
+	background-image: url(../imagens/700.jpg);
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 500px;
+	box-shadow: inset 30px 30px 400px 30px black;
+
+	}
+	
+	.container > .links{
+	width: 100%;
+	padding: 6%;
+	text-align: center;
+	position: sticky;
+	top: -1px;
+	background-color: transparent;
+	height: 100px;
+}
+	
+	.container .nome h1{
+	margin-top: 10%;
+	font-size: 30pt;
+	color: white;
+	}
+	
+	body .te{
+	margin-left: 30%;
+	font-size: 1em;
+}
+	
+	.container1 > .chilld {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 2380px;
+	padding-top: 4%;
+	color: black;
+	
+}
+
+.container1 > .chilld .redes{
+	order: 0;
+	width: 30%;
+	height: 1200px;
+	color: white;
+	margin-bottom: 10%;
+	
+}
+
+.container1 .chilld .rum, .rdois, .rtres, .rquatro, .rcinco{
+	overflow-x: scroll;
+}
+
+.container1 .chilld .musicas{
+	order: 0;
+	width: 70%;
+	height: 1200px;
+	text-align: center;
+}
+
+.container1 .musicas .audio{
+	width: 70%;
+}
+
+.container1 .musicas  a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 4px;
+}
+
+.container1 .musicas a:hover{
+	color: black;
+	background-color: #9e9e9e26;
+	transition: 2;
+	}
+	
+	.container1 .outros{
+	order: 1;
+    width: 50%;
+    height: 800px;
+    background-color: white;
+    margin: 20% 0% 0% 10%;
+    color: black;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.container1 .outros > a{
+	color: #00a8a9;
+}
+
+.container1 .chilld1{
+	width: 30%;
+	
+}
+
+.container1 >.chilld1 .rum, .rdois, .rtres, .rquatro, .rcinco{
+	background-color: #00000008;
+	color: black;
+	padding: 6px;
+	margin: 6px;
+	overflow-x: scroll;
+	
+}
+
+.container1 .chilld1 a{
+	font-size: 12px;
+	color: black;
+}
+
+.container1 .cum{
+	order: 3;
+	display: flex;
+	width: 98%;
+	height: 450px;
+	text-align: center;
+	margin: 22% 2%;
+	padding: 10px 0px 0px 200px;
+	justify-content: center;
+	overflow-x: scroll;
+    box-shadow: inset 20px 20px 20px 0px #0000001f;
+}
+
+.container1 .cum img{
+	padding-top: 0%;
+	width: 150px;
+	height: 150px;
+}
+
+.container1 .cum  a{
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 8px;
+	font-size: 0.7em;
+}
+
+.container1 .cum a img{
+	width: 20px;
+	height: 20px;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+	
+	}
+
+	
+	
